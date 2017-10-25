@@ -1,0 +1,64 @@
+
+#border{
+	pointer-events: none;
+	position:relative;
+ 	top: -251px;
+	left: 49px; 
+ 	width: 199px;
+	height: 199px; 
+	border: 1px solid SkyBlue;
+}
+
+.blank{
+	background-color: white;
+}
+
+.del{
+	transition: background-color 1s cubic-bezier(0.28, 0.25, 0.68, 0.68);
+	background-color: white;
+	visibility: hidden;
+	cursor: pointer;
+}
+
+.del:hover {
+	background-color: #ca4c49;
+}
+
+.add {
+	transition: background-color 1s cubic-bezier(0.28, 0.25, 0.68, 0.68);
+    background-color: #f3a500;
+	cursor: pointer;
+}
+
+.add:hover {
+	background-color: #f7c053;
+}
+
+.plus{
+    position: relative;
+    top: 18px;
+    margin: -31px -5px 0px -6px;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table{
+	border-collapse: separate; 
+	border-spacing: 0; 
+}
+
+td {
+	background-color: SkyBlue;
+	border: 1px solid white; 
+	text-align: center;
+}
+
+
+.active {
+	visibility: visible;
+	background-color: #b20000;
+}
+
+
